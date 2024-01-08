@@ -1,0 +1,40 @@
+*{
+box-sizing:border-box;
+
+}
+
+body {
+    margin:0;
+}
+.nav{
+    background-color:purple;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 01rem;
+}
+
+.nav ul{
+    padding:0;
+    margin:0;
+    list-style: none;
+    display:flex;
+    gap: 10rem;
+}
+
+.site-title {
+    font-size:5rem;
+}
+
+.nav a{
+    color: inherit;
+}
+
+.nav li.active{
+    background-color: brown;
+}
+
+.nav li:hover{
+    background-color: brown;
+}
